@@ -1,0 +1,10 @@
+post_install() {
+post_upgrade
+}
+
+post_upgrade() {
+rm /etc/pacman.d/bredos-mirrorlist
+cp /etc/pacman.d/bredos-mirrorlist-new /etc/pacman.d/bredos-mirrorlist
+rm /etc/pacman.d/bredos-mirrorlist-new
+}
+

@@ -1,0 +1,4 @@
+# --> BredOS Mirrorlist <-- #
+
+# BredOS Main mirror
+Server = https://repo.bredos.org/repo/$repo/$arch
