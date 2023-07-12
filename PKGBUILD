@@ -2,7 +2,7 @@
 
 pkgname=bredos-mirrorlist
 filename=bredos-mirrorlist
-pkgver=20230424
+pkgver=20230712
 pkgrel=1
 pkgdesc="BredOS mirrorlist"
 arch=('any')
@@ -10,7 +10,7 @@ url="https://github.com/BredOS/bredos-mirrorlist"
 license=('GPL3')
 source=(${filename})
 install=${pkgname}.install
-sha256sums=('235d69202bd6118a3035a64419749e5da6615e984838c44db19e75a9e94cd6bd')
+sha256sums=('b8d57fe6490bc6f9483bd4d308f1069ba6417d6641bdfeb901c7f6ff63279bd2')
 
 pkgver() {
     date +%Y%m%d
